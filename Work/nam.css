@@ -581,7 +581,7 @@ header{
 }
 .main_one:nth-child(2){
                 flex-basis: 336px;
-                margin: 200px auto 0;
+                margin: 220px auto 0;
 }
 .main_one>h3{
                 font-size:50px;
