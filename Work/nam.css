@@ -441,23 +441,32 @@ header{
 
 
 body{
-                min-width: 940px;
+                min-width: 615px;
+               
+}
+header{
+     overflow-x: hidden;
 }
 .wrap1{
                 height: 400px;
-                text-align: start;
-                display: block;
-                justify-content: center;
+                display: flex;
+                justify-content: start;
                 top: 90px;
-                left: -13px;
+                left: 0px;
                 position: relative;
+                width: 40px;
                
 }
-.wrapChald:nth-child(1){
-                margin-left: none;
-                width: 0;
-                position: absolute;
-                margin-right:none;
+.wrapChald:nth-child(1) {
+                margin-left: 10px;
+                width: 500px;
+                margin-right: 1px;
+}
+.wrapChald{
+                margin: none;
+                width: 100px;
+                position: relative;
+               
 }
 .wrapChald>div>p{
                 font-size: 34px;
@@ -466,7 +475,6 @@ body{
                 font-size: 122px;
 }
 .wrapChald>div{
-    margin: 0 auto;
                 width: 600px;
                 text-align: center;
 }
@@ -492,8 +500,9 @@ body{
                 display: flex;
                 flex-wrap: wrap;
                 position: relative;
-                left: -101px;
+                left: -270px;;
 }
+
   
 .main_inter>div{
                 text-align: center;
@@ -558,7 +567,8 @@ body{
                 font-size: 26px;
 }
 .del>div{
-                flex-basis:300px;
+                width: 270px;
+                margin-bottom: 30px;         
 }
 .del>div>h5{
                 font-size:36px;
@@ -585,8 +595,8 @@ body{
                 justify-content: center;
 }
 .del:nth-child(3){
-                margin-top: -20px;
-                margin-bottom: 60px;
+                margin-top: 0px;
+               
 }
    
                             /* main5 */
