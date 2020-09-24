@@ -203,7 +203,7 @@ header{
 .main4{
     
                 background-color: #e7e7e7;
-                height:590px;
+                min-height:590px;
 }
 .main4>div>h3{
                 text-align:center;
@@ -392,7 +392,7 @@ header{
 
                         /* .main4 */
 .main4{
-                height: 1115px;
+                /* height: 1115px; */
 }
 .vces {
                 margin-left: 21px;
@@ -475,7 +475,7 @@ header{
                         /* main4     */
 
 .main4{
-                height: 1115px;
+                /* height: 1115px; */
 }
 .vces {
                 margin-left: 21px;
@@ -489,12 +489,12 @@ header{
                 margin-top: 0px
 }
 }
-@media (max-width:700px){
+/* @media (max-width:700px){
 
 
 body{
                 min-width: 615px;
-               
+                
 }
 header{
                 overflow-x: hidden;
@@ -507,7 +507,7 @@ header{
                 left: 0px;
                 position: relative;
                 width: 40px;
-               
+                
 }
 .wrapChald:nth-child(1) {
                 margin-left: 10px;
@@ -518,7 +518,7 @@ header{
                 margin: none;
                 width: 100px;
                 position: relative;
-               
+                
 }
 .wrapChald>div>p{
                 font-size: 34px;
@@ -554,7 +554,7 @@ header{
                 margin: 0 auto;
 }
 
-  
+    
 .main_inter>div{
                 text-align: center;
                 flex-basis: 244px;
@@ -567,14 +567,14 @@ header{
                             /* main2 */
 
 
-.main2{
+/* .main2{
                 background-color: #e7e7e7;
                 min-height: 930px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 text-align: center;
-               
+                
 }
 .main_one:first-child{
                 margin-top: 15px;
@@ -596,7 +596,7 @@ header{
 
                             /* main3 */
 
-
+/* 
 .main3>p{
                 font-size: 32px;
 }
@@ -605,13 +605,13 @@ header{
 
 }
 
-                            /* main4 */
-
+                            main4 */
+/* 
 .main4{
                 min-height:1420px;
                 position: relative;             
 }
-.main4>div>h3{      
+.main4>div>h3{       
                 font-size:50px;
 }
 .main4>div>p{
@@ -647,12 +647,12 @@ header{
 }
 .del:nth-child(3){
                 margin-top: 0px;
-               
+                
 }
-   
+     */
                             /* main5 */
 
-
+/* 
 .main5>h5{
                 font-size:36px;         
 }
@@ -669,14 +669,233 @@ header{
                     /* footer */
 
 
-.footer>ul>li{
+/* .footer>ul>li{
                 font-size: 20px;
 }
+}  */
+
+@media (max-width:480px){
+
+html{
+               
+                overflow-x:hidden;
+                width:100%;
+}
+body{
+                overflow-x:hidden;
+}
+
+header{
+                overflow: hidden;
+                width: 200px;
+                height: 300px;
+              
+}
+.wrap1{
+                height: 400px;
+                display: flex;
+                justify-content: start;
+                width: 200px;
+                left: 39px;
+                top:16px;
+            
+                
+               
+}
+.wrapChald:nth-child(1) {
+                margin-left: 10px;
+                margin-right: 1px;
+}
+.wrapChald{
+                margin: none;
+                width: 100px;
+                position: relative;
+               
+}
+.wrapChald>div>p{
+                font-size: 16px;
+                margin: 0 0px 0 0;
+                width: 235px;
+}
+.wrapChald>div>h1{
+                font-size: 32px;
+                padding: 0 63px 0 0;
+}
+.wrapChald>div{
+                width: 290px;
+                text-align: center;
+                font-size: 20px;
+}
+.main{
+                min-height: 1605px;
+                
+}
+.inter>h3{
+                margin-left:0px;
+}
+.inter>p {
+                margin: 0px 29px 0 30px;
+}
+.iconk{
+                justify-content: start;
+                margin: 0 0px 0 -14px;
+
+}
+.crew{
+                display: none;  
+}
+.vces{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+}
+.main_inter{
+                width: 208px;
+                display: flex;
+                flex-wrap: wrap;
+                left: 0px;
+                position: relative;
+                /* min-height: 1200px; */
+}
+
+  
+.main_inter>div{
+                text-align: center;
+                flex-basis: 244px;
+                margin: none;
+            
+               
+}
+.main_inter>div:nth-child(6){
+                border-bottom: 4px solid #e5e5e5;
+}
+
+                            /* main2 */
+
+
+.main2{
+                background-color: #e7e7e7;
+                min-height: 836px;
+                display: flex;
+                margin: 20 0 0 0 ;
+                flex-direction: column;
+}
+.main_one:first-child{
+                margin: 0 -4px 0 17px;;
+}
+.main_one:nth-child(2){
+                flex-basis: 162px;
+                width: 251px;
+                margin: 18px auto 0;
+}
+.main_one{
+                width: 300px;
+                text-align: center;
+}
+.main_one>h3{
+                font-size:21px;
+                padding-top: -20px;
+                margin:-64px 0 0 0 ;
+}
+.main_one>p{
+                font-size:16px;
+                width: 263px;
+                margin: 0 auto;
+}
+.spic{
+                text-align: left;
+                font-size: 16px;
+}   
+
+                            /* main3 */
+
+
+.main3>p{
+                font-size: 19px;
+}
+.main3>span{
+                font-size: 20px;
+
+}
+
+                            /* main4 */
+
+.main4{
+                /* min-height:1420px; */
+                position: relative; 
+                 
+                          
+}
+.main4>div>h3{      
+                font-size:37px;
+}
+.main4>div>p{
+                
+                font-size: 16px;
+                width: 234px;
+                margin: 0 auto;
+}
+.del>div{
+                width: 220px;
+                margin-bottom: 30px;         
+}
+.del>div>h5{
+                font-size:36px;
+}
+.cem>sup{
+                font-size:28px;
+}
+.Feature>p{
+                font-size:24px;
+                font-weight: 400;
+}
+.flotFea{
+                background-color: #3498db;
+                padding: 20px;
+}
+.flotFea>button{
+                padding: 15px;
+                font-size: 22px;
+}
+.vces{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 0 auto;
+}
+.del:nth-child(3){
+                margin-bottom: 10px;
+               
+}
+   
+                            /* main5 */
+
+.main5>h5{
+                font-size:25px;         
+}
+.main5>p{
+                font-size:17px;
+                width: 292px;
+                margin: 20px auto;
+}
+.main5>div>img{
+                background-color: rgb(168, 175, 195);
+                width: 40px;
+                height: 40px;
+                border-radius: 100%;
+}
+
+                    /* footer */
+.footer>ul{
+                padding-top: 15px;
+                width: 292px; 
+}
+.footer>ul>li{
+                font-size: 14px;
+                
+}
 
 
 }
-@media(max-width:400px){
-    .spic{
-        margin-top: 13px;
-    }
-}
+
