@@ -391,9 +391,9 @@ header{
 }                       
 
                         /* .main4 */
-.main4{
+/* .main4{
                 /* height: 1115px; */
-}
+} */
 .vces {
                 margin-left: 21px;
                 flex-wrap: wrap;
@@ -407,7 +407,7 @@ header{
 }                            
 
 
-}                           
+                          
 @media(max-width:1000px){
 html{
                 width: 100%;
@@ -474,9 +474,9 @@ header{
 }        
                         /* main4     */
 
-.main4{
+/* .main4{
                 /* height: 1115px; */
-}
+} */
 .vces {
                 margin-left: 21px;
                 flex-wrap: wrap;
@@ -488,7 +488,7 @@ header{
 .del:nth-child(3){
                 margin-top: 0px
 }
-}
+
 
 @media (max-width:480px){
 
