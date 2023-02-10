@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Work/nam.css">
+    <meta name="viewport" content="width=device-width">
     <link  rel="shortcut icon" href="Work/картинки/ico.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
@@ -71,11 +71,20 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. </p>
             <p>Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</p>
             <ul class="spic">
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet consectetur elt</li>
+                <li data-spic="1" class="spice__active ">Lorem ipsum dolor sit amet</li>
+                <div class="spic__content" data-spic="1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
+                
+                <li data-spic="2" class="spice__active  ">Lorem ipsum dolor sit amet consectetur elt</li>
+                <div class="spic__content" data-spic="2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, aspernatur.</div>
             </ul>
         </div>
-        <div class="main_one"></div>
+        <div class="main_one">
+            <div class="main_one__container">
+                <video controls muted >
+                    <source src="./Work/картинки/video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
     </div>
     <div class="main3">
         <p>Craze is one of the most complete app packages I have ever come across. I would highly reccomend it to anyone!”</p>
@@ -84,7 +93,7 @@
         <input type="radio" name="er">
         <input type="radio" name="er">
     </div>
-    <div class="main4">
+     <div class="main4">
         <div>
             <h3>Pricing Plans</h3>
             <p>Lorem ipsum dolor sit amet, pro aeterno adipisci ex, pro no iriure accusam. Eros admodum intellegat ex mea, mei wisi nullam ne, qui cu aliquid nominavi. Est habemus maiestatis ut. Vim quod elitr interesset ea.</p>
@@ -183,7 +192,7 @@
 
 
 
-    </div>
+    </div> 
     <div class="main5">
         <h5>Say Hi & Get in Touch</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse. </p>
@@ -206,4 +215,5 @@
             <li>Privacy Policy </li>
         </ul>
     </div>
+    <script src="./Work/js/js.js"></script>
 </html>
